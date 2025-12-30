@@ -1,0 +1,49 @@
+{
+    "Liu Huo": {
+        "In All Directions": {
+            "MOVE": {
+                "to": "passives",
+                "regex": "\\r\\n\\r\\n.*",
+                "post_format": [
+                    {
+                        "REMOVE": {
+                            "pattern": "\r\n\r\n <shuzhi>Passive: Calligraphy Characters</>\r\n"
+                        }
+                    },
+                    "STRIP"
+                ],
+                "name": "Calligraphy Characters",
+                "icon": null,
+                "control": []
+            }
+        },
+        "A Spark of Genius": {
+            "MOVE": {
+                "to": "passives",
+                "regex": "\\r\\n.*",
+                "post_format": "STRIP",
+                "name": "Fortitude Resonance",
+                "icon": null,
+                "control": []
+            }
+        }
+    },
+    "Ji Yu": {
+        "Shifting Stars": {
+            "MOVE": {
+                "to": "passives",
+                "regex": "\\r\\n Grants.*",
+                "post_format": "STRIP",
+                "name": "Sharp Blade",
+                "icon": null,
+                "control": []
+            }
+        },
+        "Review Board": {
+            "REMOVE": {
+                "pattern": "\\r\\n Grants.*"
+            }
+        },
+        "Starting Move": "PREVIOUS"
+    }
+}
