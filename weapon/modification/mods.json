@@ -12,19 +12,14 @@
                     },
                     "STRIP"
                 ],
-                "name": "Calligraphy Characters",
-                "icon": null,
-                "control": []
+                "name": "Calligraphy Characters"
             }
         },
         "A Spark of Genius": {
             "MOVE": {
                 "to": "passives",
                 "regex": "\\r\\n.*",
-                "post_format": "STRIP",
-                "name": "Fortitude Resonance",
-                "icon": null,
-                "control": []
+                "name": "Fortitude Resonance"
             }
         }
     },
@@ -33,10 +28,7 @@
             "MOVE": {
                 "to": "passives",
                 "regex": "\\r\\n Grants.*",
-                "post_format": "STRIP",
-                "name": "Sharp Blade",
-                "icon": null,
-                "control": []
+                "name": "Sharp Blade"
             }
         },
         "Review Board": {
