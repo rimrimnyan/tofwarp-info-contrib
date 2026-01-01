@@ -33,5 +33,11 @@
             "REMOVE": "\\r\\n Grants.*"
         },
         "Starting Move": "PREVIOUS"
+    },
+    "Nola": {
+        "INFO": {
+            "shatter": 6,
+            "charge": 4
+        }
     }
 }
