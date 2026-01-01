@@ -17,6 +17,7 @@
             "MOVE": {
                 "to": "passives",
                 "regex": "\\r\\n.*",
+                "post_format": "STRIP",
                 "name": "Fortitude Resonance"
             }
         }
@@ -26,6 +27,7 @@
             "MOVE": {
                 "to": "passives",
                 "regex": "\\r\\n Grants.*",
+                "post_format": "STRIP",
                 "name": "Sharp Blade"
             }
         },
@@ -33,5 +35,11 @@
             "REMOVE": "\\r\\n Grants.*"
         },
         "Starting Move": "PREVIOUS"
+    },
+    "Nola": {
+        "INFO": {
+            "shatter": 6,
+            "charge": 7
+        }
     }
 }
