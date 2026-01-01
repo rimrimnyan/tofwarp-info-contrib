@@ -6,9 +6,7 @@
                 "regex": "\\r\\n\\r\\n.*",
                 "post_format": [
                     {
-                        "REMOVE": {
-                            "pattern": "\r\n\r\n <shuzhi>Passive: Calligraphy Characters</>\r\n"
-                        }
+                        "REMOVE": "\r\n\r\n <shuzhi>Passive: Calligraphy Characters</>\r\n"
                     },
                     "STRIP"
                 ],
@@ -32,9 +30,7 @@
             }
         },
         "Review Board": {
-            "REMOVE": {
-                "pattern": "\\r\\n Grants.*"
-            }
+            "REMOVE": "\\r\\n Grants.*"
         },
         "Starting Move": "PREVIOUS"
     }
